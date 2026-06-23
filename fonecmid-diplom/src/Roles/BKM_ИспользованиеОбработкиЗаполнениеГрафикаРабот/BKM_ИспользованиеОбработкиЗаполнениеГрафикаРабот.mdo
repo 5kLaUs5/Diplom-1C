@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71ce3987-eb98-4cec-aec0-8106f49a47c5">
+  <name>BKM_ИспользованиеОбработкиЗаполнениеГрафикаРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обработки заполнение графика работ</value>
+  </synonym>
+</mdclass:Role>

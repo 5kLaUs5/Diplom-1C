@@ -410,4 +410,18 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="c52a40a3-30fc-4c49-b27d-c4652b153bd4">
+    <name>ПФ_MXL_ГарантийноеПисьмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантийное письмо (табличный документ 1С:Предприятия)</value>
+    </synonym>
+  </templates>
+  <templates uuid="c45b0d5d-30f1-4f07-9235-9619c7e47575">
+    <name>ПФ_MXL_СчетЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-заказ</value>
+    </synonym>
+  </templates>
 </mdclass:Document>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f21a892-94c0-43bd-8c7c-ab5cc41f3672">
+  <producedTypes>
+    <objectType typeId="c17deb54-b357-47cd-975f-fea11b800aaf" valueTypeId="3e53e1c7-ccfb-4330-9a24-96fe9a2bc0b2"/>
+    <managerType typeId="74ed4f5e-4169-42d9-aef0-221740e65654" valueTypeId="6c0a5d4f-5260-40c8-bfbf-5b56f8193d48"/>
+  </producedTypes>
+  <name>ВКМ_МассовоеСозданиеАктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Массовое создание актов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="609783a6-ab2c-4ead-bc0f-e91cb64e6069">
+    <name>ВКМ_Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="5b983209-5557-478c-b93c-83e9d32d8114">
+    <producedTypes>
+      <objectType typeId="377393a1-59c9-481b-8d18-bb0dacdfbf5e" valueTypeId="3066eaca-9bad-41cb-92bb-584427de924c"/>
+      <rowType typeId="1c31cc29-79dc-4cfd-b5b8-6b6a66bd1385" valueTypeId="e53ca84c-2948-468a-a327-3e13bde123a3"/>
+    </producedTypes>
+    <name>ВКМ_СписокДоговоровИРеализаций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список договоров и реализаций</value>
+    </synonym>
+    <attributes uuid="d8463976-3428-41b0-82d8-f912d4f564e8">
+      <name>ВКМ_Договор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Договор</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДоговорыКонтрагентов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b9cfd1f9-cc6a-472b-9452-672494129493">
+      <name>ВКМ_Реализация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реализация</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.РеализацияТоваровУслуг</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+</mdclass:DataProcessor>

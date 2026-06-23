@@ -14,4 +14,21 @@
   <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
   <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
   <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>ScheduledJob.ВКМ_ОтправкаСообщенийВТелеграм</content>
+  <content>Constant.ВКМ_ТокенУправленияТГБотом</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
+  <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Role.BKM_ДобавлениеИзменениеДокументаРеализацияТоваровИУслуг</content>
+  <content>Role.BKM_ДобавлениеИзменениеДокументаНачисленияЗаработнойПлаты</content>
+  <content>Role.BKM_ИспользованиеОбработкиМассовоеСозданиеАктов</content>
+  <content>Role.BKM_ИспользованиеОбработкиЗаполнениеГрафикаРабот</content>
+  <content>Role.BKM_ДобавлениеИзменениеДокументаНачисленияФиксированнойПремии</content>
+  <content>Role.BKM_ДобавлениеИзменениеДокументаВыплатаЗарплаты</content>
+  <content>Role.BKM_ДобавлениеИзменениеДокументаГрафикОтпусков</content>
+  <content>Role.BKM_ИспользованиеОтчетаВыработкаСпециалистов</content>
+  <content>Role.BKM_ИспользованиеОтчетаАнализВыставленныхАктов</content>
+  <content>Role.BKM_ИспользованиеОтчетаАнализРасчётыССотрудниками</content>
+  <content>Role.BKM_ИспользованиеОтчетаАнализРасходЗапланированныхОтпусков</content>
 </mdclass:Subsystem>
