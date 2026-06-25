@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a852143-1ec0-4d1f-8836-a01a32a7cb4b">
+  <producedTypes>
+    <objectType typeId="354e759c-a25b-4f3c-b38b-83e23211a187" valueTypeId="89ea998e-9ba8-49e1-b2d4-9a065ca0da91"/>
+    <refType typeId="052010f0-c394-466b-a68d-ec643cf27968" valueTypeId="b609791a-9533-40c3-a2ff-a2b3e5ef33d2"/>
+    <selectionType typeId="7bff84ba-06d3-427d-914d-35514252f6d4" valueTypeId="b1fce19c-c033-41c1-9113-138a7a20004c"/>
+    <listType typeId="2b462c8e-92f4-4d02-bac1-68bccf25c16b" valueTypeId="d5846753-6ee9-4215-b34a-be4e3b3ad901"/>
+    <managerType typeId="e76f55ed-9d2b-46b3-a287-b55b50f9f918" valueTypeId="990779f1-7a2d-4535-b854-40cb97a708d0"/>
+  </producedTypes>
+  <name>ВКМ_НачислениеЗаработнойПлаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисление заработной платы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВКМ_НачислениеЗаработнойПлаты.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Начисление заработной платы</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>CalculationRegister.ВКМ_ОсновныеНачисления</registerRecords>
+  <registerRecords>CalculationRegister.ВКМ_ДополнительныеНачисления</registerRecords>
+  <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
+  <registerRecords>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
