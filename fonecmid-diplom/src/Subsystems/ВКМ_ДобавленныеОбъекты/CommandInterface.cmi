@@ -9,6 +9,10 @@
     <placementFragments>
       <group>CommandGroup.ВКМ_Справочники</group>
       <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВКМ_Сотрудники.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВКМ_Подразделения.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВКМ_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВКМ_ГрафикиРабот.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.ВКМ_РегистрыНакопления</group>
@@ -23,7 +27,11 @@
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.ВКМ_Справочники</group>
+      <commands>Catalog.ВКМ_Сотрудники.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВКМ_Подразделения.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВКМ_ГрафикиРабот.StandardCommand.OpenList</commands>
       <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВКМ_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.ВКМ_РегистрыНакопления</group>
