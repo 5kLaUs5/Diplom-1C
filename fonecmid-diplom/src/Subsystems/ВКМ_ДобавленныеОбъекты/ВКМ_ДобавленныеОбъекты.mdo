@@ -47,4 +47,5 @@
   <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотурдниками</content>
   <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
 </mdclass:Subsystem>

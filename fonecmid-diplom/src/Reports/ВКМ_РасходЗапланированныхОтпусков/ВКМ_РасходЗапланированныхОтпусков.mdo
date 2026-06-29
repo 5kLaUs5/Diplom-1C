@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4424adee-0dac-4a3c-9e20-b5508c6f8f7d">
+  <producedTypes>
+    <objectType typeId="d422ddec-04c3-490c-8df6-d3efbce49d16" valueTypeId="ec4a958a-0aaf-4778-bd3a-eba6b04356a8"/>
+    <managerType typeId="a027c5da-a9cf-4549-9d65-5d566746bf8e" valueTypeId="bee4d2c5-3838-4b65-9f23-33473dc08c2a"/>
+  </producedTypes>
+  <name>ВКМ_РасходЗапланированныхОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расход запланированных отпусков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>

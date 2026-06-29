@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe1fb161-6e4b-4182-a1ac-230456cd3b34">
+  <producedTypes>
+    <objectType typeId="80288ac6-06d0-44bb-9aeb-ca07e1de8c66" valueTypeId="5f9106c3-0982-4ab6-bb3e-14ccd8179e21"/>
+    <managerType typeId="e5ae53c1-23ca-4339-ae54-d72a9e0c85f5" valueTypeId="0cd7bcfc-001b-4a86-9fa8-461f7c45fa26"/>
+  </producedTypes>
+  <name>ВКМ_РасчетССотрудниками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет с сотрудниками</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>
