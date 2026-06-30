@@ -10,6 +10,7 @@
     <value>Массовое создание актов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВКМ_МассовоеСозданиеАктов.Form.Форма</defaultForm>
   <attributes uuid="609783a6-ab2c-4ead-bc0f-e91cb64e6069">
     <name>ВКМ_Период</name>
     <synonym>
@@ -59,4 +60,13 @@
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
+  <forms uuid="dde8f49d-c990-4875-8494-4ed4e8f4665d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>
