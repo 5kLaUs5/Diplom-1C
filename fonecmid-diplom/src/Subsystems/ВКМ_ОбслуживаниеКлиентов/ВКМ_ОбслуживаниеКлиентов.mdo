@@ -13,4 +13,5 @@
   <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>Document.РеализацияТоваровУслуг</content>
+  <content>Enum.ВКМ_СтатусЗаявкиНаОбслуживание</content>
 </mdclass:Subsystem>

@@ -49,4 +49,5 @@
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
   <content>Document.ВКМ_НачислениеФиксированнойПремий</content>
+  <content>Enum.ВКМ_СтатусЗаявкиНаОбслуживание</content>
 </mdclass:Subsystem>
